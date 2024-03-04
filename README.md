@@ -5,5 +5,5 @@ about: Studying
 ---
 
 ## Summary
-Here you can see some of my practice projects about web developer with HTML, CSS and JavaScript
+Here you can see some of my practice projects about web development with HTML, CSS and JavaScript
 
