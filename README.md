@@ -1,6 +1,6 @@
 ---
 name: "Roger Sole Ramon \U0001F680"
-about: Studying
+about: Currently studying
 
 ---
 
