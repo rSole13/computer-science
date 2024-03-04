@@ -1,0 +1,88 @@
+.header{
+    background-color: lightblue;
+    border: none;
+    border-radius: none;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+
+.numbers{
+    padding: 10px;
+    margin: 0;
+    background-color: eee;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    user-select: none;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    '1 2 3'
+    '4 5 6'
+    '7 8 9';
+    grid: 0;
+    text-align: center;
+    border: 1px solid grey;
+    margin: 10px 0;
+}
+
+.popup{
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(215, 237, 245);
+    border: 1px solid black;
+    border-collapse: collapse;
+    visibility: hidden;
+}
+
+#popup1{
+    grid-area: popup1;
+}
+
+#popup2{
+    grid-area: popup2;
+}
+
+#popup3{
+    grid-area: popup3;
+}
+
+#popup4{
+    grid-area: popup4;
+}
+
+#popup5{
+    grid-area: popup5;
+}
+
+#popup6{
+    grid-area: popup6;
+}
+
+#popup7{
+    grid-area: popup7;
+}
+
+#popup9{
+    grid-area: popup8;
+}
+
+#popup9{
+    grid-area: popup9;
+}
+
+.container2{
+    display: grid;
+    grid-template-areas:
+    'popup1 popup2 popup3'
+    'popup4 popup5 popup6'
+    'popup7 popup8 popup9';
+    gap: 0;
+    text-align: center;
+}
